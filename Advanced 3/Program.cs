@@ -98,38 +98,69 @@ namespace Advanced_3
 
             #region Q03
 
-            Hashtable fruits = new Hashtable();
-            fruits.Add("key1", "apple");
-            fruits.Add("key2", "banana");
-            fruits.Add("key3", "apple");
+            //Hashtable fruits = new Hashtable();
+            //fruits.Add("key1", "apple");
+            //fruits.Add("key2", "banana");
+            //fruits.Add("key3", "apple");
 
 
-            Console.Write("Enter the target: ");
-            string targetValue = Console.ReadLine();
+            //Console.Write("Enter the target: ");
+            //string targetValue = Console.ReadLine();
 
 
-            bool status = false;
+            //bool status = false;
 
-            foreach (DictionaryEntry entry in fruits)
-            {
-                if (entry.Value.Equals(targetValue))
-                {
-                    Console.WriteLine(entry.Key);
-                    status = true;
-                }
-            }
+            //foreach (DictionaryEntry entry in fruits)
+            //{
+            //if (entry.Value.Equals(targetValue))
+            //{
+            //Console.WriteLine(entry.Key);
+            //status = true;
+            //}
+            //}
 
 
-            if (!status)
-                Console.WriteLine("Key not found");
+            //if (!status)
+            //Console.WriteLine("Key not found");
+
+            #endregion
+
+
+            #region Q04
+
+            //string[] chars = { "F", "B", "E", "D", "A", "C" };
+
+
+            //SortedDictionary<Anagram,string> anagrams= new SortedDictionary<Anagram,string>();
+
+
+            //foreach (string _char in chars)
+            //{
+
+            //Anagram anagram = new Anagram(_char);
+
+            //if (!anagrams.ContainsKey(anagram))
+            //{
+            //anagrams[anagram] = _char;
+
+            //}
+
+            //}
+
+            //foreach (KeyValuePair<Anagram,string> item in anagrams)
+            //{
+            //Console.WriteLine($"Key: {item.Key.Word} , Values: {item.Value}");
+            //}
 
             #endregion
 
 
 
-            #endregion
 
         }
+            #endregion
+
+        
 
 
 
