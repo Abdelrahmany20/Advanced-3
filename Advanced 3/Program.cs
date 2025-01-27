@@ -169,7 +169,61 @@ namespace Advanced_3
             //} 
             #endregion
 
+            #region Q06
 
+
+
+            //SortedDictionary<int, string> students = new SortedDictionary<int, string>(new students_Q06());
+
+
+
+            //students.Add(1, "A");
+            //students.Add(2, "B");
+            //students.Add(3, "C");
+            //students.Add(4, "D");
+
+
+            //foreach (KeyValuePair<int, string> st in students)
+            //{
+                //Console.WriteLine($"ID: {st.Key}, Name: {st.Value}");
+            //}
+
+            //Console.WriteLine(/*===========================*/);
+
+
+
+            //if (students.Remove(1))
+            //{
+                //Console.WriteLine(" 1 Student removed");
+            //}
+            //else
+            //{
+                //Console.WriteLine("Student not found.");
+            //}
+
+            //Console.WriteLine(/*===========================*/); 
+
+            //foreach (KeyValuePair<int, string> st in students)
+            //{
+                //Console.WriteLine($"ID: {st.Key}, Name: {st.Value}");
+            //}
+
+
+
+            //students.Add(20, "z");
+            //Console.WriteLine("1 Student Added ");
+
+
+
+
+            //Console.WriteLine(/*===========================*/);
+
+            //foreach (KeyValuePair<int, string> st in students)
+            //{
+                //Console.WriteLine($"ID: {st.Key}, Name: {st.Value}");
+            //}
+
+            #endregion
 
 
         }
