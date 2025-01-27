@@ -155,15 +155,32 @@ namespace Advanced_3
             #endregion
 
 
+            #region Q05
+            //int[] numbers = { 1, 2, 2, 3, 3, 3, 3, 4, 5, 6, 7, 7, 8, 8, 9 };
+
+            //HashSet<int> Number = new HashSet<int>();
+
+            //foreach (int num in numbers)
+            //{
+            //if (!Number.Add(num))
+            //{
+            //Console.WriteLine($"Duplicate Number :{num}");
+            //}
+            //} 
+            #endregion
+
+
 
 
         }
-            #endregion
-
-        
-
-
+        #endregion
 
     }
 
+
+
+
+
 }
+
+
