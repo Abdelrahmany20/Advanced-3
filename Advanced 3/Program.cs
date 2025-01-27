@@ -63,11 +63,11 @@ namespace Advanced_3
 
             //foreach (int nums in numbers)
             //{
-                //if (count.ContainsKey(nums))
-                    //count[nums] = (int)count[nums] + 1;
+            //if (count.ContainsKey(nums))
+            //count[nums] = (int)count[nums] + 1;
 
-                //else
-                    //count[nums] = 1;
+            //else
+            //count[nums] = 1;
             //}
 
 
@@ -76,17 +76,17 @@ namespace Advanced_3
 
             //foreach (DictionaryEntry item in count)
             //{
-                //if ((int)item.Value > maxvalue)
-                //{
-                    //maxvalue = (int)item.Value;
-                    //maxkey = (int)item.Key;
-                //}
+            //if ((int)item.Value > maxvalue)
+            //{
+            //maxvalue = (int)item.Value;
+            //maxkey = (int)item.Key;
+            //}
             //}
 
 
             //foreach (DictionaryEntry item in count)
             //{
-                //Console.WriteLine($"key : {item.Key} , value : {item.Value}");
+            //Console.WriteLine($"key : {item.Key} , value : {item.Value}");
 
 
 
@@ -96,34 +96,43 @@ namespace Advanced_3
 
             #endregion
 
+            #region Q03
+
+            Hashtable fruits = new Hashtable();
+            fruits.Add("key1", "apple");
+            fruits.Add("key2", "banana");
+            fruits.Add("key3", "apple");
 
 
+            Console.Write("Enter the target: ");
+            string targetValue = Console.ReadLine();
 
 
+            bool status = false;
+
+            foreach (DictionaryEntry entry in fruits)
+            {
+                if (entry.Value.Equals(targetValue))
+                {
+                    Console.WriteLine(entry.Key);
+                    status = true;
+                }
+            }
 
 
+            if (!status)
+                Console.WriteLine("Key not found");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            #endregion
 
 
 
             #endregion
 
         }
+
+
+
     }
+
 }
