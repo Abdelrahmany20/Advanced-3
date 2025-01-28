@@ -17,6 +17,134 @@ namespace Advanced_3
             //and Business Case With Implemented Examples in Separates Project at the Same Solution]
 
 
+            // Note : There is a pdf with a comparison.
+
+
+
+            //list<>
+
+
+            //List<string> Employee = new List<string> { "Ahmed", "zyad", "Ali" };
+
+
+            //Employee.Add("Sara");
+            //Employee.Remove("Ali");
+
+            //foreach (string s in Employee)
+            //{
+
+            //Console.WriteLine(s);
+            //}
+
+
+
+
+            //----------------------------------------------------------//
+
+
+            //Dictionary
+
+            //Dictionary<string, int> Emp = new Dictionary<string, int>();
+
+
+            //Emp.Add("A", 1);
+            //Emp.Add("B", 2);
+            //Emp.Add("C", 3);
+            //Emp.Add("D", 4);
+
+            //Emp["a"] = 8; 
+            //Console.WriteLine($"a: {Emp["a"]}");
+
+
+            //foreach (KeyValuePair<string, int> emp in Employee)
+            //{
+            //Console.WriteLine(emp.Key);
+            //}
+
+
+            //----------------------------------------------------------//
+
+            //Queue
+
+            //Queue<string> orders = new Queue<string>();
+            //orders.Enqueue("first");
+            //orders.Enqueue("second");
+            //Console.WriteLine(orders.Dequeue());
+
+
+            //----------------------------------------------------------//
+
+            //stack
+
+
+            //Stack<string> orders = new Stack<string>();
+            //orders.Push("first");
+            //orders.Push("second");
+            //Console.WriteLine(orders.Pop());
+
+
+
+            //----------------------------------------------------------//
+
+            //HashSet
+
+            //HashSet<int> numbers = new HashSet<int> { 1, 2, 3 };
+            //numbers.Add(5);
+
+            //foreach (int i in numbers)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+
+            //----------------------------------------------------------//
+
+
+            //SortedSet
+
+            //SortedSet<int> numbers = new SortedSet<int> { 10, 5, 20, 10, 15 };
+            //foreach (int num in numbers)
+            //{
+            //Console.WriteLine(num);
+            //}
+
+
+            //----------------------------------------------------------//
+
+            //SortedDictionary
+
+            //SortedDictionary<string, int> employees = new SortedDictionary<string, int>
+            //{
+            //    { "Ahmed", 5000 },
+            //    { "Mona", 7000 },
+            //    { "Ali", 6000 }
+            //};
+
+            //foreach (KeyValuePair<string, int> employee in employees)
+            //{
+            //    Console.WriteLine($"{employee.Key}: {employee.Value}");
+            //}
+
+
+            //----------------------------------------------------------//
+
+
+
+            //Hashtable table = new Hashtable
+            //{
+            //{ "Ahmed", 5000 },
+            //{ "Mona", 7000 },
+            //{ "Ali", 6000 }
+            //};
+
+            //foreach (DictionaryEntry entry in table)
+            //{
+            //Console.WriteLine($"{entry.Key}: {entry.Value}");
+            //}
+
+
+
 
 
             #endregion
@@ -441,31 +569,31 @@ namespace Advanced_3
             #region Q12
 
 
-            Dictionary<string, int> Element = new Dictionary<string, int>();
+            //Dictionary<string, int> Element = new Dictionary<string, int>();
 
-            Element.Add("apple", 1);
-            Element.Add("animal", 2);
-            Element.Add("airport", 3);
-
-
-
-
-            Console.WriteLine("Enter A char");
-            string Achar = Console.ReadLine();
+            //Element.Add("apple", 1);
+            //Element.Add("animal", 2);
+            //Element.Add("airport", 3);
 
 
 
 
+            //Console.WriteLine("Enter A char");
+            //string Achar = Console.ReadLine();
 
-            foreach (KeyValuePair<string, int> item in Element)
 
-            {
 
-                if (item.Key.StartsWith(Achar))
-                {
-                    Console.WriteLine(Achar);
-                }
-            }
+
+
+            //foreach (KeyValuePair<string, int> item in Element)
+
+            //{
+
+            //if (item.Key.StartsWith(Achar))
+            //{
+            //Console.WriteLine(Achar);
+            //}
+            //}
             #endregion
 
 
@@ -474,7 +602,7 @@ namespace Advanced_3
 
 
         }
-        }
+    }
     }
 
 
