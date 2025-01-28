@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.ComponentModel;
 using System.IO;
 
@@ -95,6 +96,11 @@ namespace Advanced_3
 
             //Console.WriteLine($"max key: {maxkey} , max value: {maxvalue}");
 
+
+
+
+
+            // we can use sorted set to get max value
             #endregion
 
             #region Q03
@@ -432,17 +438,48 @@ namespace Advanced_3
 
 
 
+            #region Q12
+
+
+            Dictionary<string, int> Element = new Dictionary<string, int>();
+
+            Element.Add("apple", 1);
+            Element.Add("animal", 2);
+            Element.Add("airport", 3);
+
+
+
+
+            Console.WriteLine("Enter A char");
+            string Achar = Console.ReadLine();
+
+
+
+
+
+            foreach (KeyValuePair<string, int> item in Element)
+
+            {
+
+                if (item.Key.StartsWith(Achar))
+                {
+                    Console.WriteLine(Achar);
+                }
+            }
+            #endregion
+
+
+            #endregion
+
 
 
         }
-        #endregion
-
+        }
     }
 
 
 
 
 
-}
 
 
