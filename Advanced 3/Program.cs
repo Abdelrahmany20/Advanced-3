@@ -284,6 +284,33 @@ namespace Advanced_3
 
             #endregion
 
+
+            #region Q08
+
+            //int[] numbers = { 1, 2, 5, 8, 11,14 };
+            //int N = 15; 
+
+
+
+            //HashSet<int> Numbers = new HashSet<int>();
+            //for (int i = 1; i <= N; i++)
+            //{
+            //Numbers.Add(i);
+            //}
+
+            //foreach (int num in numbers)
+            //{
+            //Numbers.Remove(num);
+            //}
+
+            //Console.WriteLine("Missing numbers:");
+            //foreach (int i in Numbers)
+            //{
+            //Console.WriteLine(i);
+            //} 
+            #endregion
+
+
         }
         #endregion
 
