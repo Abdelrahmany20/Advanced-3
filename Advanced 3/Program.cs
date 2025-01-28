@@ -322,9 +322,90 @@ namespace Advanced_3
             //Console.WriteLine("Unique Nums:");
             //foreach (int num in unique)
             //{
-                //Console.WriteLine(num);
+            //Console.WriteLine(num);
             //} 
             #endregion
+
+
+
+            #region Q10
+            //Hashtable FirstTable = new Hashtable();
+
+            //FirstTable.Add(1, "A");
+            //FirstTable.Add(2, "B");
+            //FirstTable.Add(3, "C");
+            //FirstTable.Add(4, "D");
+            //FirstTable.Add(5, "E");
+
+
+
+            //foreach (DictionaryEntry first in FirstTable)
+            //{
+            //Console.WriteLine($"Key : {first.Key} :: Value : {first.Value}");         
+            //}
+
+
+
+
+            //Console.WriteLine(/*===========================*/);
+
+
+
+
+
+            //Hashtable SecondTable = new Hashtable();
+
+            //foreach (DictionaryEntry Second in FirstTable)
+            //{
+            //    SecondTable[Second.Value] = Second.Key;
+
+            //}
+
+
+
+
+            //foreach (DictionaryEntry Second in SecondTable)
+            //{
+            //    Console.WriteLine($"Key : {Second.Key} :: Value : {Second.Value}");
+            //}
+
+
+
+
+
+
+
+            //  Console.WriteLine(/*===========================*/);
+
+            // if we want keys and values ordered by key use sorted list -->
+
+
+
+
+
+
+            //SortedList SecondTable = new SortedList();
+
+
+
+            //foreach (DictionaryEntry Second in FirstTable)
+            //{
+            //SecondTable[Second.Value] = Second.Key;
+            //}
+
+
+            //foreach (DictionaryEntry Second in SecondTable)
+            //{
+            //Console.WriteLine($"Key : {Second.Key} :: Value : {Second.Value}");
+            //}
+
+            #endregion
+
+
+
+
+
+
 
         }
         #endregion
