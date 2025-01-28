@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.ComponentModel;
+using System.IO;
 
 namespace Advanced_3
 {
@@ -185,7 +186,7 @@ namespace Advanced_3
 
             //foreach (KeyValuePair<int, string> st in students)
             //{
-                //Console.WriteLine($"ID: {st.Key}, Name: {st.Value}");
+            //Console.WriteLine($"ID: {st.Key}, Name: {st.Value}");
             //}
 
             //Console.WriteLine(/*===========================*/);
@@ -194,18 +195,18 @@ namespace Advanced_3
 
             //if (students.Remove(1))
             //{
-                //Console.WriteLine(" 1 Student removed");
+            //Console.WriteLine(" 1 Student removed");
             //}
             //else
             //{
-                //Console.WriteLine("Student not found.");
+            //Console.WriteLine("Student not found.");
             //}
 
             //Console.WriteLine(/*===========================*/); 
 
             //foreach (KeyValuePair<int, string> st in students)
             //{
-                //Console.WriteLine($"ID: {st.Key}, Name: {st.Value}");
+            //Console.WriteLine($"ID: {st.Key}, Name: {st.Value}");
             //}
 
 
@@ -220,11 +221,68 @@ namespace Advanced_3
 
             //foreach (KeyValuePair<int, string> st in students)
             //{
-                //Console.WriteLine($"ID: {st.Key}, Name: {st.Value}");
+            //Console.WriteLine($"ID: {st.Key}, Name: {st.Value}");
             //}
 
             #endregion
 
+            #region Q07
+
+            //SortedDictionary<int, string> employee = new SortedDictionary<int, string>();
+
+            //employee.Add(1, "Ahmed");
+            //employee.Add(2, "Omar");
+            //employee.Add(3, "Ali");
+            //employee.Add(4, "Abdelrahman");
+
+
+
+            //SortedList<int, string> employee_directory = new SortedList<int, string>();
+
+            //employee_directory.Add(1, "Ahmed");
+            //employee_directory.Add(2, "Omar");
+            //employee_directory.Add(3, "Ali");
+            //employee_directory.Add(4, "Abdelrahman");
+
+            //foreach (KeyValuePair<int,string> employee in employee_directory)
+            //{
+            //Console.WriteLine($"ID: {employee.Key}, Name: {employee.Value}");
+            //}
+
+
+            //Console.WriteLine(/*===========================*/);
+
+
+            //employee_directory.Add(5, "sara");
+
+            //Console.WriteLine("After Adding 1 Employee :");
+
+
+            //foreach (KeyValuePair<int, string> employee in employee_directory)
+            //{
+            //Console.WriteLine($"ID: {employee.Key}, Name: {employee.Value}");
+            //}
+
+
+            //Console.WriteLine(/*===========================*/);
+
+            //employee_directory.Remove(5);
+
+            //Console.WriteLine("After Removing 1 Employee :");
+
+
+            //foreach (KeyValuePair<int, string> employee in employee_directory)
+            //{
+            //Console.WriteLine($"ID: {employee.Key}, Name: {employee.Value}");
+            //}
+
+
+
+            ////if we want to order by desc ... use (students Q06 ) class we created in Q06 -->
+            ////SortedList<int, string> employee_directory = new SortedList<int, string>(new students_Q06());
+
+
+            #endregion
 
         }
         #endregion
