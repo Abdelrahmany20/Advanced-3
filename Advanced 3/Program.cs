@@ -403,6 +403,33 @@ namespace Advanced_3
 
 
 
+            #region Q11
+            //HashSet<int> set1 = new HashSet<int> { 1, 2, 3, 4, 5 };
+
+            ////////////HashSet<int> set2 = new HashSet<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+
+            //HashSet<int> set2 = new HashSet<int> { 4, 5, 6, 7, 8,9,10 };
+
+            /////////set2.UnionWith(set1);
+
+            /////////////foreach (int Union in set1)
+            /////////{
+            /////////Console.WriteLine(Union);
+            /////////}
+
+
+
+
+
+            //set1.UnionWith(set2);
+
+            //foreach (int Union in set1)
+            //{
+            //    Console.WriteLine(Union);
+            //} 
+            #endregion
+
 
 
 
